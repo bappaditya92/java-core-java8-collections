@@ -26,7 +26,9 @@ class SyncThread implements Runnable {
     public SyncThread(Object o1, Object o2) {
         this.obj1 = o1;
         this.obj2 = o2;
+
     }
+
 
     @Override
     public void run() {

@@ -18,7 +18,6 @@ public class MaxEqualFreq {
                 }
             }
 
-            // update new frequency
             int newFreq = oldFreq + 1;
             countMap.put(num, newFreq);
             freqMap.put(newFreq, freqMap.getOrDefault(newFreq, 0) + 1);
@@ -27,17 +26,14 @@ public class MaxEqualFreq {
 
             int len = i + 1;
 
-            // Case 1: all freq = 1
             if (maxFreq == 1) {
                 result = len;
             }
-            // Case 2: one number with freq = 1
             else if (freqMap.get(1) != null &&
                     freqMap.get(1) == 1 &&
                     freqMap.get(maxFreq) * maxFreq + 1 == len) {
                 result = len;
             }
-            // Case 3: one number has extra frequency
             else if (freqMap.get(maxFreq) == 1 &&
                     freqMap.get(maxFreq - 1) != null &&
                     freqMap.get(maxFreq - 1) * (maxFreq - 1) + maxFreq == len) {
