@@ -1,3 +1,4 @@
+//Write a program for the below input=Java output=J#a##v###a####
 public class Interview {
     public static void main(String[] args) {
 
@@ -15,3 +16,6 @@ public class Interview {
         System.out.println(output);
     }
 }
+
+
+
