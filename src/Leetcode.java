@@ -2,10 +2,6 @@ public class Leetcode {
     public int findGCD(int[] nums) {
         int min = nums[0], max = nums[0];
         for (int n : nums) {
-
-
-
-            
             if (n < min) min = n;
             if (n > max) max = n;
         }
