@@ -15,7 +15,6 @@ public class AllSortingAlgo {
 
     }
 }
-
 class SortingAlgorithm{
     void bubbleSort(int[]arr){
         int n = arr.length;
@@ -29,7 +28,6 @@ class SortingAlgorithm{
                     isSwap = true;
                 }
             }
-
             if(!isSwap){break;}
         }
     }
@@ -79,12 +77,8 @@ class SortingAlgorithm{
     void merge(int[]arr, int si, int mid, int ei){
 
         ArrayList<Integer> list = new ArrayList<>();
-
-        //take pointers.
         int index1 = si;
         int index2 = mid+1;
-
-
         while(index1 <= mid && index2 <= ei){
             if(arr[index1] < arr[index2]){
                 list.add(arr[index1]);
