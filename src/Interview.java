@@ -1,7 +1,6 @@
 //Write a program for the below input=Java output=J#a##v###a####
 public class Interview {
     public static void main(String[] args) {
-
         String input = "Java";
         StringBuilder output = new StringBuilder();
 
@@ -12,7 +11,6 @@ public class Interview {
                 output.append("#");
             }
         }
-
         System.out.println(output);
     }
 }
