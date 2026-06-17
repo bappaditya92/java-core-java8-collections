@@ -18,7 +18,6 @@ public class QueueArray {
         }
     }
 
-    // isEmpty
     public boolean isEmpty() {
         if ((beginningOfQueue == -1) || (beginningOfQueue == arr.length)) {
             return true;
