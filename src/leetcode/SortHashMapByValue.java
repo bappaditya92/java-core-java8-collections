@@ -18,7 +18,6 @@ public class SortHashMapByValue {
         scores.put("Sourav", 97);
         scores.put("Aditya", 78);
         scores.put("Munni", 65);
-
         System.out.println(scores);
         scores = sortByValue(scores);
         System.out.println(scores);
