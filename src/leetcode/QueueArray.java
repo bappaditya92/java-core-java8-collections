@@ -9,7 +9,7 @@ public class QueueArray {
         this.arr = new int[size];
         this.topOfQueue = -1;
         this.beginningOfQueue= -1;
-        System.out.println("The Queue is succesffully created with size of: " + size);
+        System.out.println("The Queue is successfully created with size of: " + size);
     }
     // IsFull
     public boolean isFull() {
@@ -20,7 +20,6 @@ public class QueueArray {
         }
     }
 
-    // isEmpty
     public boolean isEmpty() {
         if ((beginningOfQueue == -1) || (beginningOfQueue == arr.length)) {
             return true;
