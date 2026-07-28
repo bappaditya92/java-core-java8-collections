@@ -1,7 +1,8 @@
+package leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SubarraySumEqualsK {
+public class SubArraySumEqualsK {
 
     public static int subarraySum(int[] nums, int k) {
 
