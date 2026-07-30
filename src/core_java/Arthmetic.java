@@ -16,8 +16,8 @@ public class Arthmetic {
 //        System.out.println(reminder);
 
         int a = 5;
-        double b = 10.5;
-        double c = a + b;
+//        double b = 10.5;
+        double c = a + 11.5;
         System.out.println(c);
 
 
