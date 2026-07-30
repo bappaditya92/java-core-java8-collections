@@ -2,7 +2,7 @@ package core_java;
 
 public class Arthmetic {
     public static void main(String[] args) {
-        int salary = 1000;
+        //int salary = 1000;
 //        int bonus = 500;
 //        int totalSalary = salary + bonus;
 //        System.out.println("salary is: " +totalSalary);
@@ -10,10 +10,16 @@ public class Arthmetic {
 //        int monthlySalary = salary - deduction;
 //        System.out.println("monthly salary:" + monthlySalary);
 
+//        int a = 5;
+//        int b = 3;
+//        int reminder = a%b;
+//        System.out.println(reminder);
+
         int a = 5;
-        int b = 3;
-        int reminder = a%b;
-        System.out.println(reminder);
+        double b = 10.5;
+        double c = a + b;
+        System.out.println(c);
+
 
     }
 }
