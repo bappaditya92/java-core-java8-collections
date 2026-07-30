@@ -15,11 +15,15 @@ public class Arthmetic {
 //        int reminder = a%b;
 //        System.out.println(reminder);
 
-        int a = 5;
-//        double b = 10.5;
-        double c = a + 11.5;
-        System.out.println(c);
+//        int a = 5;
+////        double b = 10.5;
+//        double c = a + 11.5;
+//        System.out.println(c);
 
+        float a = 10.5f;
+        long b = 10554;
+        float c  = a+b;
+        System.out.println(c);
 
     }
 }
