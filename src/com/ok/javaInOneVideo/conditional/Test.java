@@ -8,12 +8,13 @@ public class Test {
 //        System.out.println(!a);
 
         boolean isSunny = true;
-        boolean isWarm = true;
-
+        boolean isWarm = false;
         if(isSunny || isWarm){
             System.out.println("Go to outside...");
-        }
-        else{
+        } else if (isSunny) {
+            System.out.println("Ghar theke bero vai");
+
+        } else{
             System.out.println("Ghar me raho vai...");
         }
 
