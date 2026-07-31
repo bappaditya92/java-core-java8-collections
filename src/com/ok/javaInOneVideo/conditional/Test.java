@@ -74,7 +74,12 @@ public class Test {
 //        String str = a%2 == 0? "Even": "Odd";
 //        System.out.println(str);
 
+        int i = 0;
 
+//        while(i<=5){
+//            System.out.println("Hello");
+//           ++i;
+//        }
 
 
    }
