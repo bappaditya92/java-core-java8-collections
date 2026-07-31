@@ -1,4 +1,4 @@
-package core_java;
+package com.ok.javaInOneVideo;
 
 public class PrimitiveDataTypes {
     public static void main(String[] args) {

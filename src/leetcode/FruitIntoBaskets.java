@@ -14,7 +14,7 @@ public class FruitIntoBaskets {
                     map.remove(fruits[left]);
                 }
                 left++;
-            }
+            }   
 
             max = Math.max(max, right - left + 1);
         }
@@ -23,5 +23,6 @@ public class FruitIntoBaskets {
     public static void main(String[] args) {
         int[] fruits = {1, 2, 1, 2, 3, 2, 2};
         System.out.println(totalFruit(fruits));
+        //System.out.println(totalFruit(bananas));
     }
 }
