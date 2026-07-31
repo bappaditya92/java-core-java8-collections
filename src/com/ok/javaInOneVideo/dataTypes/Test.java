@@ -28,11 +28,18 @@ public class Test {
 //         //common ASCII example (0-127 range)
 //        System.out.println((char) 10084);
 
-        String s1 = "Hello java";
-        String s2  = new String("Hello");
-        System.out.println(s1); //string literal
-        System.out.println(s2); //using constructor
+//        int a = 1; // stack
+//        String s1 = "Hello java"; //heap(string pool)
+//        String s2  = new String("Hello");
+//        System.out.println(s1); //string literal
+//
+//        //jvm --> heap memory (String pool
+//        System.out.println(s2); //using constructor
 
+        String s1 = "Hello";
+        String s2 = "world";
+        String s3 = new String("Hello");
+        System.out.println(s1.equals(s3));
 
     }
 }
