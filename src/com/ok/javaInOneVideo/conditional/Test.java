@@ -18,7 +18,7 @@ public class Test {
 //        }
 
 
-    int day = 4;
+    int day = 5;
     String dayName;
 
 //    if(day ==1){
@@ -41,32 +41,38 @@ public class Test {
 //    }
 //        System.out.println(dayName);
 
-        switch(day){
-            case 1: dayName = "Monday";
-            break;
+//        switch(day){
+//            case 1: dayName = "Monday";
+//            break;
+//
+//            case 2: dayName = "Tuesday";
+//           break;
+//
+//            case 3: dayName = "Wednesday";
+//            break;
+//
+//            case 4: dayName = "Thursday";
+//            break;
+//
+//            case 5: dayName = "Friday";
+//            break;
+//
+//            case 6: dayName = "Saturday";
+//           break;
+//
+//            case 7: dayName = "Sunday";
+//           break;
+//
+//            default: dayName = "Invalid Day";
+//        }
+//        System.out.println(dayName);
 
-            case 2: dayName = "Tuesday";
-            break;
 
-            case 3: dayName = "Wednesday";
-            break;
-
-            case 4: dayName = "Thursday";
-            break;
-
-            case 5: dayName = "Friday";
-            break;
-
-            case 6: dayName = "Saturday";
-            break;
-
-            case 7: dayName = "Sunday";
-            break;
-
-            default: dayName = "Invalid Day";
-        }
-        System.out.println(day);
-
+        //ternary operator
+        //result = (condition) ? valueIfTrue : valueIfFalse;
+       int a = 4;
+        boolean isEven = a%2 == 0?true: false;
+        System.out.println(isEven);
 
     }
 }
