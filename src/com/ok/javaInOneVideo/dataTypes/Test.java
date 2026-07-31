@@ -36,10 +36,15 @@ public class Test {
 //        //jvm --> heap memory (String pool
 //        System.out.println(s2); //using constructor
 
-        String s1 = "Hello";
-        String s2 = "world";
-        String s3 = new String("Hello");
-        System.out.println(s1.equals(s3));
+//        String s1 = "Hello";
+////        String s2 = "world";
+////        String s3 = new String("Hello");
+////        System.out.println(s1.equals(s3));
+        String a = "hello";
+        String sc = new String ("world");
+
+        System.out.println(a.toUpperCase());
+        System.out.println(sc.toUpperCase());
 
     }
 }

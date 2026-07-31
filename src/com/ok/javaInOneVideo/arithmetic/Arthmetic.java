@@ -20,10 +20,24 @@ public class Arthmetic {
 //        double c = a + 11.5;
 //        System.out.println(c);
 
-        float a = 10.5f;
-        long b = 10554;
-        float c  = a+b;
-        System.out.println(c);
+//        float a = 10.5f;
+//        long b = 10554;
+//        float c  = a+b;
+//        System.out.println(c);
+
+//        float d = 10/3f;
+//        System.out.println(d);
+
+        int a = 10;
+
+        a+=5;
+        System.out.println(a);
+        a-=3;
+        System.out.println(a);
+        a*=5;
+        System.out.println(a);
+        a/=3;
+        System.out.println(a);
 
     }
 }
