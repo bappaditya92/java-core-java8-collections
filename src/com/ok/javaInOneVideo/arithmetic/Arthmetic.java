@@ -27,17 +27,30 @@ public class Arthmetic {
 
 //        float d = 10/3f;
 //        System.out.println(d);
+//
+//        int a = 10;
+//
+//        a+=5;
+//        System.out.println(a);
+//        a-=3;
+//        System.out.println(a);
+//        a*=5;
+//        System.out.println(a);
+//        a/=3;
+//        System.out.println(a);
 
         int a = 10;
+//        a++; //post increment
+//        System.out.println(a);
+//        ++a; //pre increment
+//        System.out.println(a);
+//        a--; //post decrement
+//        System.out.println(a);
+//        --a; //pre decrement
+//        System.out.println(a);
+        System.out.println(--a + a++);
 
-        a+=5;
-        System.out.println(a);
-        a-=3;
-        System.out.println(a);
-        a*=5;
-        System.out.println(a);
-        a/=3;
-        System.out.println(a);
+
 
     }
 }
