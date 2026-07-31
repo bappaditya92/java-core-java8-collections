@@ -81,9 +81,18 @@ public class Test {
 //           ++i;
 //        }
 
-        for(int i = 0; i< 5; i++){
+//        for(int i = 0; i< 5; i++){
+//            System.out.println(i);
+//        }
+
+        int i = 1;
+        do{
             System.out.println(i);
+            i++;
+
         }
+        while(i<=10);
+
 
    }
 }
