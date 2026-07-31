@@ -18,8 +18,8 @@ public class Test {
 //        }
 
 
-    int day = 5;
-    String dayName;
+//    int day = 5;
+//    String dayName;
 
 //    if(day ==1){
 //        dayName="Monday";
@@ -70,9 +70,12 @@ public class Test {
 
         //ternary operator
         //result = (condition) ? valueIfTrue : valueIfFalse;
-       int a = 4;
-        boolean isEven = a%2 == 0?true: false;
-        System.out.println(isEven);
+//       int a = 5;
+//        String str = a%2 == 0? "Even": "Odd";
+//        System.out.println(str);
 
-    }
+
+
+
+   }
 }
