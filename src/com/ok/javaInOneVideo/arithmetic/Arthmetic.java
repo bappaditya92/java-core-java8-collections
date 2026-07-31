@@ -39,16 +39,24 @@ public class Arthmetic {
 //        a/=3;
 //        System.out.println(a);
 
-        int a = 10;
-//        a++; //post increment
-//        System.out.println(a);
-//        ++a; //pre increment
-//        System.out.println(a);
-//        a--; //post decrement
+//        int a = 10;
+//      a++; //post increment
+//       System.out.println(a);
+//       ++a; //pre increment
+//       System.out.println(a);
+//       a--; //post decrement
 //        System.out.println(a);
 //        --a; //pre decrement
-//        System.out.println(a);
-        System.out.println(--a + a++);
+//       System.out.println(a);
+//        System.out.println(--a + a++);
+
+
+        int a = 5;
+        int b = 5;
+
+        int c = a & b;
+        System.out.println(c);
+
 
 
 
