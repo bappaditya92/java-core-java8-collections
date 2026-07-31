@@ -19,14 +19,20 @@ public class Test {
 //        boolean isAdult = true;
 //        isAdult = false;
 //        System.out.println(isAdult);
-        char b = 'b';
+//        char b = 'b';
+//
+//        System.out.println((int) b);
+//
+//        System.out.println("Minimum Val: " + (int) Character.MIN_VALUE);
+//        System.out.println("maximum val: " + (int) Character.MAX_VALUE);
+//         //common ASCII example (0-127 range)
+//        System.out.println((char) 10084);
 
-        System.out.println((int) b);
+        String s1 = "Hello java";
+        String s2  = new String("Hello");
+        System.out.println(s1); //string literal
+        System.out.println(s2); //using constructor
 
-        System.out.println("Minimum Val: " + (int) Character.MIN_VALUE);
-        System.out.println("maximum val: " + (int) Character.MAX_VALUE);
-//common ASCII example (0-127 range)
-        System.out.println((char) 10084);
 
     }
 }
