@@ -65,21 +65,37 @@ public class Test {
 //       }
 //        System.out.println(sum);
 
-        int[][] arr = new int[5][5];
-        int[][] nums = {
-                {1, 2, 3, 4, 5},
-                {6, 7, 8, 9, 10},
-                {11, 12, 13, 14, 15},
-                {16, 17, 18, 19, 20},
-                {21, 22, 23, 24, 25}
-        };
-//        System.out.println(nums[2][3]);
-      for(int i=0; i<nums.length;i++){
-          for(int j=0; j<nums.length; j++){
-              System.out.print(nums[i][j] + " ");
-          }
-          System.out.println();
-      }
+//        int[][] arr = new int[5][5];
+//        int[][] nums = {
+//                {1, 2, 3, 4, 5},
+//                {6, 7, 8, 9, 10},
+//                {11, 12, 13, 14, 15},
+//                {16, 17, 18, 19, 20},
+//                {21, 22, 23, 24, 25}
+//        };
+//       System.out.println(nums[2][3]);
+//      for(int i=0; i<nums.length;i++){
+//          for(int j=0; j<nums.length; j++){
+//              System.out.print(nums[i][j] + " ");
+//          }
+//          System.out.println();
+//      }
+
+        char[][] arr = new char[3][2];
+        arr[0][0]='a';
+        arr[0][1]='b';
+        arr[1][0]='c';
+        arr[1][1]='d';
+        arr[2][0]='e';
+        arr[2][1]='f';
+        for(int i=0; i<arr.length;i++){
+            for(int j=0; j<arr[i].length;j++){
+                System.out.print(arr[i][j]+ " ");
+            }
+            System.out.println();
+        }
+//jagged array --> array iof different length of array
+
     }
 }
 
