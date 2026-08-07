@@ -35,27 +35,38 @@ public class Test {
 //        }
 
 
-
         //Find Maximum element
-
-        int[] arr = new int[5];
-        arr[0] = 1;
-        arr[1] = 2000;
-        arr[2] = 855;
-        arr[3] = -4;
-        arr[4] = 85;
-        int res = Integer.MIN_VALUE;
-
-       for (int i=0; i<arr.length; i++){
-           if(arr[i]>res){
-               res = arr[i];
-           }
-
-       }
-        System.out.println(res);
+//        int[] arr = new int[5];
+//        arr[0] = 1;
+//        arr[1] = 2000;
+//        arr[2] = 855;
+//        arr[3] = -4;
+//        arr[4] = 85;
+//        int res = Integer.MIN_VALUE;
+//       for (int i=0; i<arr.length; i++){
+//           if(arr[i]>res){
+//               res = arr[i];
+//           }
+//       }
+//        System.out.println(res);
 
 
+
+//        //reverse an array
+//        int arr[] = {5,8,9,6,7,6,2};
+//        for(int i=arr.length-1; i>=0; i--){
+//            System.out.println(arr[i]);
+//        }
+
+        //sum of array
+        int arr[] = {5,8,9,-7,6,-2};
+        int sum = 0;
+        for(int i=0; i<arr.length; i++){
+            sum += arr[i];
+        }
+        System.out.println(sum);
 
     }
-
 }
+
+
