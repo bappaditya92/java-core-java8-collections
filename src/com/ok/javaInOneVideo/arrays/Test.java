@@ -23,7 +23,7 @@ public class Test {
 //     }
 
 
- // Search an element in an array
+        // Search an element in an array
 //        int arr[] = {9,47,8,661,87,92};
 //        for(int i: arr){
 //            if(i==661){
@@ -51,7 +51,6 @@ public class Test {
 //        System.out.println(res);
 
 
-
 //        //reverse an array
 //        int arr[] = {5,8,9,6,7,6,2};
 //        for(int i=arr.length-1; i>=0; i--){
@@ -59,14 +58,28 @@ public class Test {
 //        }
 
         //sum of array
-        int arr[] = {2,8,9,-7,6,-2};
-        int sum = 0;
-//        for(int i=0; i<arr.length; i++){
-        for(int i:arr){
-            sum += i;
-        }
-        System.out.println(sum);
+//       int arr[] = {5,9,6,7,5,9,-8,-95,558};
+//       int sum = 0;
+//       for(int i: arr){
+//           sum+=i;
+//       }
+//        System.out.println(sum);
 
+        int[][] arr = new int[5][5];
+        int[][] nums = {
+                {1, 2, 3, 4, 5},
+                {6, 7, 8, 9, 10},
+                {11, 12, 13, 14, 15},
+                {16, 17, 18, 19, 20},
+                {21, 22, 23, 24, 25}
+        };
+//        System.out.println(nums[2][3]);
+      for(int i=0; i<nums.length;i++){
+          for(int j=0; j<nums.length; j++){
+              System.out.print(nums[i][j] + " ");
+          }
+          System.out.println();
+      }
     }
 }
 
