@@ -59,10 +59,11 @@ public class Test {
 //        }
 
         //sum of array
-        int arr[] = {5,8,9,-7,6,-2};
+        int arr[] = {2,8,9,-7,6,-2};
         int sum = 0;
-        for(int i=0; i<arr.length; i++){
-            sum += arr[i];
+//        for(int i=0; i<arr.length; i++){
+        for(int i:arr){
+            sum += i;
         }
         System.out.println(sum);
 
