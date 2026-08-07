@@ -11,11 +11,16 @@ public class Test {
 //        }
 
 
-        int[] arr = {1,2,5,6,3,7,9};
-        for (int i=0; i<arr.length; i++){
-            System.out.println(arr[i]);
-        }
-        //System.out.println(arr);
+//        int[] arr = {1,2,5,6,3,7,9};
+//        for (int i=0; i<arr.length; i++){
+//            System.out.println(arr[i]);
+//        }
+//        //System.out.println(arr);
+
+     int[] arr1 = {4,5,8,59,9,47,8,661,87,92,46};
+     for(int i: arr1){
+         System.out.println(i);
+     }
 
     }
 
