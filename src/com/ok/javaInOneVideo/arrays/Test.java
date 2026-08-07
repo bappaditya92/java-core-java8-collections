@@ -3,8 +3,10 @@ package com.ok.javaInOneVideo.arrays;
 public class Test {
 
     public static void main(String[] args) {
-        int[] arr = new int[10];
-        for(int i =0; i<10; i++){
+        int[] arr = new int[20];
+        arr[3] = 56;
+        System.out.println(arr[3]);
+        for(int i =0; i<arr.length; i++){
             System.out.println(arr[i]);
         }
 
