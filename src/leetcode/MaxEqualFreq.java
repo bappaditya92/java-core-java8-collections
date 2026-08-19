@@ -11,7 +11,6 @@ public class MaxEqualFreq {
         int result = 0;
         for (int i = 0; i < nums.length; i++) {
             int num = nums[i];
-
             int oldFreq = countMap.getOrDefault(num, 0);
             if (oldFreq > 0) {
                 freqMap.put(oldFreq, freqMap.get(oldFreq) - 1);
@@ -23,9 +22,7 @@ public class MaxEqualFreq {
             int newFreq = oldFreq + 1;
             countMap.put(num, newFreq);
             freqMap.put(newFreq, freqMap.getOrDefault(newFreq, 0) + 1);
-
             maxFreq = Math.max(maxFreq, newFreq);
-
             int len = i + 1;
 
             if (maxFreq == 1) {
@@ -42,12 +39,10 @@ public class MaxEqualFreq {
                 result = len;
             }
         }
-
         return result;
     }
-
     public static void main(String[] args) {
-        int[] nums = {2,2,1,1,5,3,3,5};
+        int[] nums = {2,2,1,1,5,3,3,9};
         System.out.println(maxEqualFreq(nums)); // Output: 7
     }
 }
