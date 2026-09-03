@@ -1,4 +1,4 @@
-package com.ok.javaInOneVideo.conditional;
+package com.ok.javaZeroToHero.conditional;
 
 public class Test {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.ok.javaInOneVideo.arithmetic;
+package com.ok.javaZeroToHero.arithmetic;
 
 public class Arthmetic {
     public static void main(String[] args) {

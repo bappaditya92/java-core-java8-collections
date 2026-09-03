@@ -1,6 +1,4 @@
-package com.ok.javaInOneVideo.dataTypes;
-
-import jdk.swing.interop.SwingInterOpUtils;
+package com.ok.javaZeroToHero.dataTypes;
 
 public class Test {
     public static void main(String[] args) {

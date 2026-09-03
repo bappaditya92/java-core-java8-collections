@@ -1,4 +1,4 @@
-package com.ok.javaInOneVideo.arrays;
+package com.ok.javaZeroToHero.arrays;
 
 public class Test {
 

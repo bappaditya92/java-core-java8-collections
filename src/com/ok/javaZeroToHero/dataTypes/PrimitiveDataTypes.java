@@ -1,4 +1,4 @@
-package com.ok.javaInOneVideo.dataTypes;
+package com.ok.javaZeroToHero.dataTypes;
 
 public class PrimitiveDataTypes {
     public static void main(String[] args) {
