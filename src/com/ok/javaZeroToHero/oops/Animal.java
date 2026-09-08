@@ -1,6 +1,8 @@
 package com.ok.javaZeroToHero.oops;
 
 public class Animal {
-    String name;
-    int age;
+public void makeSound(){
+    System.out.println("Make sound...");
+}
+
 }

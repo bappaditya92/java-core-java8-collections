@@ -2,6 +2,7 @@ package com.ok.javaZeroToHero.oops;
 
 public class Test {
     public static void main(String[] args) {
+        //Encapsulation
 //        Car car = new Car();
 //        car.color = "Black";
 //        car.brand = "Skoda";
@@ -10,9 +11,19 @@ public class Test {
 //        car.accelarate(11);
 //        System.out.println(car.speed);
 
-        Cat cat = new Cat();
-        cat.name = "Billi";
-        cat.age = 2;
-        cat.breed = "Iris";
+
+// Inheritance
+//        Cat cat = new Cat();
+//        cat.name = "Billi";
+//        cat.age = 2;
+//        cat.breed = "Iris";
+
+ //Polymorphism
+
+        Animal dog = new Dog();
+        dog.makeSound();
+
+
+
     }
 }
