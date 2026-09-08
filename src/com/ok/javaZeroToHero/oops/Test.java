@@ -23,6 +23,9 @@ public class Test {
         Animal dog = new Dog();
         dog.makeSound();
 
+        Animal cat = new Cat();
+        cat.makeSound();
+
 
 
     }
