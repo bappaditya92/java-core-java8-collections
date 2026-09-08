@@ -20,11 +20,13 @@ public class Test {
 
  //Polymorphism
 
-        Animal dog = new Dog();
-        dog.makeSound();
+//        Animal dog = new Dog();
+//        dog.makeSound();
+//
+//        Animal cat = new Cat();
+//        cat.makeSound();
 
-        Animal cat = new Cat();
-        cat.makeSound();
+  //
 
 
 
