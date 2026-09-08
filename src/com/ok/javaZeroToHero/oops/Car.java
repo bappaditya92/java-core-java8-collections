@@ -1,13 +1,47 @@
 package com.ok.javaZeroToHero.oops;
 
 public class Car {
-    String color;
-    String brand;
-    String model;
-    int year;
-    int speed;
+    private String color;
+    private String brand;
+    private String model;
+    private int year;
+    private int speed;
 
-  public void accelarate(int increment){
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
+    public void accelarate(int increment){
       speed +=increment;
   }
 

@@ -8,7 +8,7 @@ public class Test {
         car.model = "Kylaq";
         car.year = 2026;
 
-        car.accelarate(10);
+        car.accelarate(11);
         System.out.println(car.speed);
     }
 }
