@@ -20,8 +20,8 @@ public class Test {
 //        }
 //
 //
-//        int day = 5;
-//        String dayName;
+        int day = 10;
+        String dayName;
 //
 //        if (day == 1) {
 //            dayName = "Monday";
@@ -42,39 +42,39 @@ public class Test {
 //        }
 //        System.out.println(dayName);
 //
-//        switch (day) {
-//            case 1:
-//                dayName = "Monday";
-//                break;
-//
-//            case 2:
-//                dayName = "Tuesday";
-//                break;
-//
-//            case 3:
-//                dayName = "Wednesday";
-//                break;
-//
-//            case 4:
-//                dayName = "Thursday";
-//                break;
-//
-//            case 5:
-//                dayName = "Friday";
-//                break;
-//
-//            case 6:
-//                dayName = "Saturday";
-//                break;
-//
-//            case 7:
-//                dayName = "Sunday";
-//                break;
-//
-//            default:
-//                dayName = "Invalid Day";
-//        }
-//        System.out.println(dayName);
+        switch (day) {
+            case 1:
+                dayName = "Monday";
+                break;
+
+            case 2:
+                dayName = "Tuesday";
+                break;
+
+            case 3:
+                dayName = "Wednesday";
+                break;
+
+            case 4:
+                dayName = "Thursday";
+                break;
+
+            case 5:
+                dayName = "Friday";
+                break;
+
+            case 6:
+                dayName = "Saturday";
+                break;
+
+            case 7:
+                dayName = "Sunday";
+                break;
+
+            default:
+                dayName = "Please enter the correct date";
+        }
+        System.out.println(dayName);
 
 
         //ternary operator
@@ -102,18 +102,18 @@ public class Test {
 //        }
 //        while(i<=10);
 
-        Scanner obj = new Scanner(System.in);
-        int n = obj.nextInt();
-        if (n >= 0) {
-            if (n % 2 == 0) {
-                System.out.println("even");
-            } else {
-                System.out.println("odd");
-            }
-        } else {
-            System.out.println("invalid");
+//        Scanner obj = new Scanner(System.in);
+//        int n = obj.nextInt();
+//        if (n >= 0) {
+//            if (n % 2 == 0) {
+//                System.out.println("even");
+//            } else {
+//                System.out.println("odd");
+//            }
+//        } else {
+//            System.out.println("invalid");
 
 
-        }
+        //}
     }
 }
