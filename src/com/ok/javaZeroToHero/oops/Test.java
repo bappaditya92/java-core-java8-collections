@@ -25,10 +25,5 @@ public class Test {
 //
 //        Animal cat = new Cat();
 //        cat.makeSound();
-
-  //
-
-
-
     }
 }
