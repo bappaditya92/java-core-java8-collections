@@ -6,7 +6,7 @@ public class Test {
 
         //5 + 4 + 3 + 2 + 1
 
-        System.out.println(sumOfNaturalNumbers(5));
+        System.out.println(sumOfNaturalNumbers(6));
 
     }
    // public static int factorial(int x){
@@ -18,8 +18,8 @@ public class Test {
   //  }
 
     public static int sumOfNaturalNumbers(int n) {
-        if (n == 0) {
-            return 0;
+        if (n == 1) {
+            return 1;
         }
             return n + sumOfNaturalNumbers(n - 1);
 
