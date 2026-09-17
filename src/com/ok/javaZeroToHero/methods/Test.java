@@ -8,8 +8,8 @@ public class Test {
 //        int z = sumOfArray(a);
 //        System.out.println(z);
 
-        String str1 = upperFunc("bappaditya");
-        System.out.println(str1);
+        String result = upperFunc("bappaditya");
+        System.out.println(result);
     }
 
 //    public static void addNum(int a, int b) {
