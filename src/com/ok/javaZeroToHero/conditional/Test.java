@@ -20,7 +20,7 @@ public class Test {
 //        }
 //
 //
-        int day = 10;
+        int day = 7;
         String dayName;
 //
 //        if (day == 1) {
