@@ -8,7 +8,7 @@ public class Test {
 //        int z = sumOfArray(a);
 //        System.out.println(z);
 
-        String result = upperFunc("bappaditya");
+        String result = upperFunc("                    bappaditya                        ");
         System.out.println(result);
     }
 
