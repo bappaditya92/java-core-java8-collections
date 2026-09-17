@@ -3,12 +3,15 @@ package com.ok.javaZeroToHero.methods;
 public class Test {
 
     public static void main(String[] args) {
- String name = "bappaditya";
-        System.out.println(upper(name));
-        System.out.println(name);
+        System.out.println(sum(10,52,66,96,88));
     }
-    public static String upper(String str){
-        return str.toUpperCase();
+
+    public static int sum(int ...num){
+        int res = 0;
+        for(int i: num){
+            res+= i;
+        }
+        return res;
     }
     }
 
