@@ -8,9 +8,18 @@ public class Test {
 //        int z = sumOfArray(a);
 //        System.out.println(z);
 
-        String result = upperFunc("                    bappaditya                        ");
-        System.out.println(result);
+//        String result = upperFunc("                    bappaditya                        ");
+//        System.out.println(result);
+
+int res = addNum(5,3);
+        System.out.println(res);
+ int res1 = addNum(5,8,9);
+        System.out.println(res1);
+
     }
+
+
+
 
 //    public static void addNum(int a, int b) {
 //        int c = a + b;
@@ -25,12 +34,18 @@ public class Test {
 //        //System.out.println(res);
 //        return res;
     //}
-    private static String upperFunc(String str){
-       return str.trim().toUpperCase();
+//    private static String upperFunc(String str){
+//       return str.trim().toUpperCase()
+//    }
+//
 
-
+    public static int addNum(int a, int b){
+        return a+b;
     }
 
+    public static int addNum(int a, int b, int c){
+        return a+b+c;
+    }
 
     }
 
