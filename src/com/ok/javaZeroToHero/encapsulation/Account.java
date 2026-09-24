@@ -12,7 +12,6 @@ public class Account {
         else {
             System.out.println("Invalid deposit amount");
         }
-
     }
     public void withdraw(double amount){
         if(amount > 0 && amount <= balance){
@@ -22,8 +21,6 @@ public class Account {
         else {
             System.out.println("Invalid withdrawal amount or insufficient balance");
         }
-
-
     }
 
     public long getAccountNumber() {
@@ -33,7 +30,6 @@ public class Account {
     public void setAccountNumber(long accountNumber) {
         this.accountNumber = accountNumber;
     }
-
     public double getBalance() {
         return balance;
     }
